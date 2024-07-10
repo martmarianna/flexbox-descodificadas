@@ -1,0 +1,32 @@
+
+.quadro {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    width: 400px;
+    height: 400px;
+
+    margin: auto;
+    margin-top: 5%;
+
+    border: 35px double #c65f58;
+
+    background-image: url(luneta.jpg);
+    background-repeat: no-repeat;
+    box-shadow: inset #c65f58;
+    background-size: contain;
+
+    outline-width: 20px;
+    outline-style: groove;
+    outline-color: #dd541c;
+    outline-offset: 20px;
+
+}
+
+.text{
+    color: #fac358;
+    font-size: 3rem;
+    font-family: Lucida Sans;
+    padding-top: 60px;
+}
